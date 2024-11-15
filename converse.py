@@ -16,9 +16,12 @@ client = boto3.client(
     region_name="us-west-2",
 )
 
+# The model ID for the model you want to use
 model_id = "us.meta.llama3-2-3b-instruct-v1:0"
 
+# The message you want to send to the model
 user_message = "Summarize AWS"
+
 conversation = [
     {
         "role": "user",
