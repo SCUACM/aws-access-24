@@ -65,7 +65,7 @@ First, we need to create a virtual environment for Python, which essentially ins
   - A gitignore files tells git to not push certain files and keep them local to computer
 - Now you are ready to call AWS services!
 
-# 3) Using the Python files 
+## 3) Using the Python files 
 There are 2 files I have made for you: `bedrock.py` and `converse.py`. Both call Amazon Bedrock, using the model you enabled and specify, to generate a response to a given prompt.
 - Change `model_id` to the model you selected on the AWS console
 - Change `user_message` to the prompt you want to use
